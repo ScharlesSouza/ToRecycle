@@ -1,6 +1,7 @@
 package com.example.scharles.torecycle;
 
 import android.app.Fragment;
+import android.app.ListFragment;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
