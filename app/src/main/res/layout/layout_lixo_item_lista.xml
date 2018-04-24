@@ -10,30 +10,14 @@
     android:orientation="vertical"   tools:context=".LixoItemLista">
 
     <TextView
-        android:id="@+id/textViewDisc"
+        android:id="@+id/textViewMaterial"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:layout_weight="1"
         android:capitalize="none"
         android:text="Matertial"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="25sp"
         android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textViewProf"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Descrição"
-        android:textAlignment="center" />
-
-    <TextView
-        android:id="@+id/textViewCont"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Imagem"
-        android:textAlignment="center" />
 
 </LinearLayout>

@@ -1,5 +1,6 @@
 package com.example.scharles.torecycle;
 
+import android.media.Image;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,33 +9,33 @@ import android.widget.TextView;
 
 class ItemHolder extends RecyclerView.ViewHolder {
 
-    TextView textoLixo = null;
-    TextView textoProfessor = null;
-    TextView textoContador = null;
 
+    TextView textoMaterial = null;
 
 
     ItemHolder(View view){
         super(view);
 
-        textoLixo = (TextView)view.findViewById(R.id.textViewDisc);
-        textoProfessor = (TextView)view.findViewById(R.id.textViewProf);
-        textoContador = (TextView)view.findViewById(R.id.textViewCont);
+        textoMaterial = (TextView)view.findViewById(R.id.textViewMaterial);
+
 
     }
 }
 
 public class LixoItemLista {
     String material;
-    String professor;
-    String contador;
+    String cor;
 
-    LixoItemLista( String sMaterial, String sProfessor, String sContador){
+
+
+
+    LixoItemLista( String sMaterial){
 
         material = sMaterial;
-        professor = sProfessor;
-        contador = sContador;
+
 
     }
+
+
 
 }
